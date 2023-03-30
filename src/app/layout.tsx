@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   title: "OpenAI Image Generator",
   description:
     "OpenAI prompt and Image Generator built with Next.js and Azure Functions",
+  icons: {
+    icon: "/openAi.png",
+  },
 };
 
 export default function RootLayout({

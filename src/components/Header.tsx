@@ -14,15 +14,15 @@ function Header() {
         </div>
       </div>
       <nav className="flex divide-x items-center text-xs md:text-base font-light">
-        <Link
+        <a
           className="px-2"
           href={"https://github.com/kratos-respawned/OpenAI-ImageGenerator"}
         >
           Source Code
-        </Link>
-        <Link className="px-2" href={"www.itsgaurav.co"}>
+        </a>
+        <a className="px-2" href={"www.itsgaurav.co"}>
           Me
-        </Link>
+        </a>
       </nav>
     </header>
   );
