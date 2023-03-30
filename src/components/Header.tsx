@@ -1,6 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
-
 function Header() {
   return (
     <header className="flex shadow-md justify-between p-5 items-center sticky top-0 bg-white z-50">
@@ -20,7 +18,7 @@ function Header() {
         >
           Source Code
         </a>
-        <a className="px-2" href={"www.itsgaurav.co"}>
+        <a className="px-2" href={"https://itsgaurav.co"}>
           Me
         </a>
       </nav>

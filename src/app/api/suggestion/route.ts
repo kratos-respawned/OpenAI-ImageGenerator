@@ -7,6 +7,7 @@ export async function GET(request: Request) {
       cache: "no-store",
     });
     const data = await response.text();
+    console.log(data);
     return new Response(JSON.stringify(data.trim()), {
       status: 200,
     });

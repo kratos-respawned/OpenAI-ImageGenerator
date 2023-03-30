@@ -4,6 +4,7 @@ const nextConfig = {
     appDir: true,
   },
   images: {
+    unoptimized: true,
     domains: ["aigeneratedimagestorage.blob.core.windows.net"],
   },
 };

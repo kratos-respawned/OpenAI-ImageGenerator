@@ -76,6 +76,7 @@ function PromptInput() {
         className="flex flex-col lg:flex-row shadow-md shadow-slate-400/10 border rounded-md lg:divide-x"
       >
         <textarea
+          rows={1}
           placeholder={
             (loading && "ChatGPT is thinking of a suggestion...") ||
             suggestion ||
