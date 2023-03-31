@@ -3,8 +3,8 @@
 import { FormEvent, useState } from "react";
 import useSWR from "swr";
 import fetchImages from "../lib/fetchImages";
-import toast from "react-hot-toast";
 import fetchSuggestions from "@/lib/fetchSuggestions";
+import toast from "react-hot-toast";
 
 function PromptInput() {
   const [input, setInput] = useState("");
@@ -76,7 +76,6 @@ function PromptInput() {
         className="flex flex-col lg:flex-row shadow-md shadow-slate-400/10 border rounded-md lg:divide-x"
       >
         <textarea
-          rows={1}
           placeholder={
             (loading && "ChatGPT is thinking of a suggestion...") ||
             suggestion ||
